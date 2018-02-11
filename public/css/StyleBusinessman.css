@@ -1,0 +1,150 @@
+.bsman-colorBlue { color:#3EC1CC; }
+.bsman-colorViolet { color:#682E8A ; }
+.bsman-colorBlack { color:#343A4D; }
+.bsman-colorGreen { color:#A3CF5F ; }
+.bsman-colorGray { color:#616161; }
+.bsman-colorOrange { color:#F87929; }
+.bsman-colorBlueLigth { color:#BFDFE9; }
+.bsman-colorWhite { color:white; }
+
+.bsman-bgBlueLight{ background-color:#EFF5FB; }
+
+.bsman-borderBlue{
+    border:1px solid #3EC1CC;
+    border-radius: 3px;
+}
+.bsman-borderViol{
+    border:1px solid #682E8A;
+    border-radius: 3px;
+}
+
+.bsman-borderWhite{
+    border:1px solid white;
+    border-radius: 3px;
+}
+
+.bsman-borderCircleBlue{
+    border: 1px solid #3EC1CC;
+    border-radius: 50%;
+    padding: 0.2em 0.5em;
+    display: inline-block;
+}
+
+hr.bsman-hrBlue {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid #3EC1CC;
+}
+bsman-noBorder { border: none; }
+
+.bsman-colorBlu_Viol {
+    color: #3EC1CC;
+    border: none;
+}
+.bsman-colorBlu_Viol:hover {
+    color: #682E8A;
+    font-weight: bold;
+}
+
+.bsman-borderBlue_Viol{
+    border:1px solid #3EC1CC;
+    border-radius: 3px;
+}
+.bsman-borderBlue_Viol:hover{
+    border:1px solid #682E8A;
+}
+
+.bsman-font12{ font-size: 12px; }
+.bsman-font13{ font-size: 13px; }
+.bsman-font14{ font-size: 14px; }
+.bsman-font15{ font-size: 15px; }
+.bsman-font16{ font-size: 16px; }
+.bsman-font20{ font-size: 20px; }
+.bsman-font22{ font-size: 22px; }
+.bsman-font25{ font-size: 25px; }
+.bsman-font28{ font-size: 28px; }
+.bsman-font32{ font-size: 32px; }
+.bsman-font33{ font-size: 33px; }
+.bsman-font35{ font-size: 35px; }
+
+.bsman-noBackground{ background: none; }
+
+/*** CONTENT ***/
+#businessman-content{
+    margin-top: 130px;
+    margin-right: 20px;
+}
+#businessman-content > .row {
+    margin-left: 10px !important;
+}
+.bsman-quantitySize{
+    height: auto;
+    width: 40px;
+    text-align: center;
+}
+
+.bsman-hideMobile{
+    display:inline-block;
+}
+
+/*** SIDEBAR ***/
+#businessman-sidebar {
+    margin-top: 70px;
+}
+/**** NAVBAR ***/
+#businessman-content  .navbar .collapse .dropdown-toggle {
+    float: none;
+    background:#3EC1CC;
+    border-color:white;
+    color: white;
+}
+
+#businessman-navbar{
+    display: none;
+}
+
+
+
+/*** Mediaqueries ***/
+
+@media (max-width: 991px) {
+    #businessman-sidebar{
+        display: none;
+    }
+    #businessman-navbar{
+        display: inline-block;
+        margin-left: 20px;
+    }
+    #businessman-content {
+        margin-top: 20px;
+        margin-right: 0px;
+        margin-left: -30px;
+    }
+}
+
+@media (max-width: 770px){
+    .bsman-hideMobile{
+        display:none;
+    }
+
+    .bsman-font32, .bsman-font35{
+        font-size: 25px;
+    }
+    .bsman-font20, .bsman-font22{
+        font-size: 16px;
+    }
+    #ps-btnSuccesBuy {
+        text-align: center;
+    }
+}
+
+@media (max-width: 574px){
+    .ps-rowProduct {
+        order: 2;
+    }
+    .ps-removeProduct{
+        order: 1;
+        text-align: end;
+    }
+}

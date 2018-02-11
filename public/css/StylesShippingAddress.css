@@ -1,0 +1,7 @@
+#shippingAddressForm .sa-bottomLineBlue, #modalFormDirecShippReadonly .sa-bottomLineBlue{
+    border: 2px solid #3EC1CC;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    background: none;
+}

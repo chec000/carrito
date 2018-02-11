@@ -1,0 +1,16 @@
+{
+    "name": "Inscription",
+    "alias": "inscription",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\Inscription\\Providers\\InscriptionServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}

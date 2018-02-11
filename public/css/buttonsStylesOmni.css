@@ -1,0 +1,154 @@
+/* Button violet-blue */
+.boton_omni {
+    border: none;
+    background: #682E8A ;
+    color: white !important;
+    border-radius: 3px !important;
+    position: relative;
+    box-sizing: border-box;
+    transition: all 300ms ease;
+    cursor: pointer;
+    margin-left: 5%;
+    text-align: center;
+    vertical-align: middle;
+
+}
+.boton_omni:hover {
+    background: #3EC1CC;
+    color: white !important;
+    border-radius: 3px;
+}
+/* Button black-violet */
+.boton_omni2 {
+    border: none;
+    background: #616161 ;
+    color: white;
+    padding: 10px;
+    border-radius: 3px;
+    position: relative;
+    box-sizing: border-box;
+    transition: all 300ms ease;
+}
+.boton_omni2:hover {
+    background: #682E8A;
+    color: white;
+    border-radius: 3px;
+}
+/* Button blue-violet */
+.boton_omni3 {
+    border: none;
+    background: #3EC1CC;
+    color: white;
+    padding: 10px;
+    border-radius: 3px;
+    position: relative;
+    box-sizing: border-box;
+
+}
+.boton_omni3:hover {
+    background: #682E8A;
+    color: white;
+    border-radius: 3px;
+}
+.boton_omni3:visited{
+    color: white;
+}
+/* Button white-violet */
+.boton_omni4 {
+    background: white ;
+    color: #3EC1CC;
+    padding: 10px;
+    border-color: #3EC1CC;
+    border-radius: 3px;
+    position: relative;
+    box-sizing: border-box;
+    transition: all 300ms ease;
+}
+.boton_omni4:hover {
+    background: #682E8A;
+    color: white;
+    border-radius: 3px;
+    border-color: #682E8A;
+}
+
+.boton_small{
+    height: 20px; 
+    width: 85px; 
+    font-size: 12px; 
+    padding: 2px; 
+}
+
+.boton_mid{
+    height: 40px; 
+    width: 180px; 
+    font-size: 14px; 
+}
+
+.boton_lg{
+    height: 40px; 
+    width: 235px; 
+    font-size: 16px; 
+}
+
+.sz_boton_order{
+    height: 20px; 
+    width: 190px; 
+    padding: 1px; 
+}
+
+.boton_iconNoBackround{
+    color: #3EC1CC;
+    background: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    height: auto; 
+    width: auto; 
+}
+.boton_iconNoBackround:hover {
+    color: #682E8A;
+
+}
+.boton_icon{
+    color: #3EC1CC;
+    background: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    height: auto; 
+    width: auto; 
+}
+.boton_icon:hover {
+    color: white;
+    background: #682E8A;
+    border-radius: 3px;
+}
+
+.boton_iconViol{
+    color: #682E8A;
+    background: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    height: auto; 
+    width: auto; 
+}
+.boton_iconViol:hover {
+    color: white;
+    background: #682E8A;
+    border-radius: 3px;
+}
+
+.border_icon_circle {
+    height: 30px;
+    width: 30px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+    color: #3EC1CC;
+    background: Transparent;
+    border: 2px solid #3EC1CC;
+
+}
+.border_icon_circle:hover {
+    color: #682E8A;
+    border: 2px solid #682E8A;
+}

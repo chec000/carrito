@@ -1,0 +1,299 @@
+.modal-mask {
+    position: fixed;
+    z-index: 9998;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    display: table;
+    transition: opacity .3s ease;
+}
+
+.modal-wrapper {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.modal-container {
+    width: 750px;
+    margin: 0px auto;
+    padding: 20px 30px;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .33);
+    transition: all .3s ease;
+    font-family: Helvetica, Arial, sans-serif;
+    border-radius: 8px;
+    position: relative;
+}
+
+.deleteProduct{
+    text-decoration: line-through;
+}
+.custom-combobox {
+    position: relative;
+    display: inline-block;
+}
+.custom-combobox-toggle {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin-left: -1px;
+    padding: 0;
+}
+.custom-combobox-input {
+    margin: 0;
+    padding: 5px 10px;
+}
+.cargaEspera{
+    z-index: 9999999999999;
+    color: red;
+    width: 100%;
+    height: 100%;
+    background: black;
+    display: block;
+    position: fixed;
+    text-align: center;
+    font-size: 100px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1050;
+    opacity: 0.5;
+    vertical-align: middle;
+    padding-top: 20%;
+}
+.prodEliminado{
+    background-color: rgba(255, 0, 0, 0.1) !important;
+}
+.prodAgregado{
+    background-color:rgba(0,255,0,0.1) !important;
+}
+
+.invoice-info{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.modal-header h3 {
+    margin: 0;
+    color: #5b2c76;
+}
+
+.modal-default-button {
+    float: right;
+}
+.modal-enter {
+    opacity: 0;
+}
+
+.modal-leave-active {
+    opacity: 0;
+}
+
+.modal-enter .modal-container,
+.modal-leave-active .modal-container {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.modal-mask a.close-modal {
+    display: inline-block;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 0.35em;
+    height: 0.35em;
+    border: none;
+    -webkit-border-radius: 1em;
+    border-radius: 1em;
+    font: normal 8em/normal Arial, Helvetica, sans-serif;
+    color: rgba(0,0,0,1);
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    background: #79266E;
+    cursor: pointer !important;
+    position: absolute;
+    top: -12px;
+    right: -12px;
+    z-index: 9000;
+}
+
+.modal-mask a.close-modal::before {
+    display: inline-block;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 0.16em;
+    height: 0.04em;
+    position: absolute;
+    content: "";
+    top: 0.15em;
+    left: 0.100em;
+    border: none;
+    font: normal 100%/normal Arial, Helvetica, sans-serif;
+    color: rgba(0,0,0,1);
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    background: #ffffff;
+    text-shadow: none;
+    -webkit-transform: rotateZ(45deg);
+    transform: rotateZ(45deg);
+}
+
+.modal-mask a.close-modal::after {
+    display: inline-block;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 0.16em;
+    height: 0.04em;
+    position: absolute;
+    content: "";
+    top: 0.15em;
+    left: 0.100em;
+    border: none;
+    font: normal 100%/normal Arial, Helvetica, sans-serif;
+    color: rgba(0,0,0,1);
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    background: #ffffff;
+    text-shadow: none;
+    -webkit-transform: rotateZ(-45deg);
+    transform: rotateZ(-45deg);
+}
+
+.marco-crud {
+    border-radius: 6px;
+    box-shadow: 0 2px 2px rgba(204, 197, 185, 0.5);
+    background-color: #FFFFFF;
+    color: #252422;
+    z-index: 1;
+    margin: 25px 25px 20px 25px;
+    padding: 25px;
+}
+
+.btn-crud{
+    background-color: transparent;
+    border: solid 2px;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 7px 15px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: #5b2c76;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    -webkit-transition: all 150ms linear;
+    -moz-transition: all 150ms linear;
+    -o-transition: all 150ms linear;
+    -ms-transition: all 150ms linear;
+    transition: all 150ms linear;
+}
+
+.btn-crud:hover{
+    background-color: #5b2c76;
+    border-color: #5b2c76;
+    color: #FFF;
+}
+
+.btn-crud-cancel{
+    border: solid 2px rgb(255, 65, 65);
+    color:  rgb(255, 65, 65);
+    background-color: transparent;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 7px 15px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    -webkit-transition: all 150ms linear;
+    -moz-transition: all 150ms linear;
+    -o-transition: all 150ms linear;
+    -ms-transition: all 150ms linear;
+    transition: all 150ms linear;
+}
+
+.btn-crud-cancel:hover{
+    background-color: rgb(255, 65, 65);
+    color: #FFF;
+}
+
+.VueTables__search, .VueTables__limit {
+    padding: 10px 0;
+}
+.VueTables__search label, .VueTables__limit label{
+    color: #5b2c76;
+    padding-right: 5px;
+    font-size: 14px;
+}
+
+.VueTables__search input{
+    border: solid 2px #5b2c76;
+    color: #5b2c76;
+    font-size: 14px;
+    padding: 5px 10px;
+    height: auto;
+}
+
+.VueTables__search input:focus, .VueTables__limit select:focus{
+    border: solid 2px #5b2c76;
+    background-color: #5b2c76;
+    color: #fff;
+}
+
+.VueTables__limit select{
+    border: solid 2px #5b2c76;
+    width: 100px !important;
+    font-size: 14px;
+    color: #5b2c76;
+    height: 34px;
+    font-weight: bold;
+}
+.VuePagination{
+    text-align: center;
+}
+.VuePagination__count{
+    display: none;
+}
+
+.table > thead > tr > th {
+    background: #5b2c76;
+    color: #fff;
+    font-size: 14px;
+    font-weight: lighter;
+}
+.table-responsive{
+    border-radius: 10px;
+}
+
+.optIcon{
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.input-crud{
+    border-radius: 6px;
+    padding: 9px 10px 5px;
+    height: auto !important;
+    font-size: 15px;
+    border: 2px solid #5b2c76;
+
+
+}
+.input-crud:focus{
+    border: 2px solid #5b2c76;
+}
+.input-crud-select{
+    border: 2px solid #5b2c76;
+    height: 38px;
+    font-size: 15px;
+}
+.input-crud-select:focus{
+    border: 2px solid #5b2c76;
+    height: 38px;
+    font-size: 15px;
+}
+.optionBtn i:hover{
+    color: #e853d4;
+}

@@ -1,0 +1,197 @@
+.chckt-colorBlue { color:#3EC1CC; }
+.chckt-colorViolet { color:#682E8A ; }
+.chckt-colorBlack { color:#343A4D; }
+.chckt-colorGreen { color:#A3CF5F ; }
+.chckt-colorGray { color:#616161; }
+.chckt-colorOrange { color:#F87929; }
+.chckt-colorBlueLigth { color:#BFDFE9; }
+.chckt-colorWhite { color:white; }
+
+.chckt-bgBlueLight{ background-color:#EFF5FB; }
+
+.chckt-borderBlue{
+    border:1px solid #3EC1CC;
+    border-radius: 3px;
+}
+.chckt-borderViol{
+    border:1px solid #682E8A;
+    border-radius: 3px;
+}
+
+.chckt-borderWhite{
+    border:1px solid white;
+    border-radius: 3px;
+}
+
+.chckt-borderCircleBlue{
+    border: 1px solid #3EC1CC;
+    border-radius: 50%;
+    padding: 0.2em 0.5em;
+    display: inline-block;
+}
+
+hr.chckt-hrBlue {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid #3EC1CC;
+}
+chckt-noBorder { border: none; }
+
+.chckt-colorBlu_Viol {
+    color: #3EC1CC;
+    border: none;
+}
+.chckt-colorBlu_Viol:hover {
+    color: #682E8A;
+    font-weight: bold;
+}
+
+.chckt-borderBlue_Viol{
+    border:1px solid #3EC1CC;
+    border-radius: 3px;
+}
+.chckt-borderBlue_Viol:hover{
+    border:1px solid #682E8A;
+}
+
+.chckt-font12{ font-size: 12px; }
+.chckt-font13{ font-size: 13px; }
+.chckt-font14{ font-size: 14px; }
+.chckt-font15{ font-size: 15px; }
+.chckt-font16{ font-size: 16px; }
+.chckt-font20{ font-size: 20px; }
+.chckt-font22{ font-size: 22px; }
+.chckt-font25{ font-size: 25px; }
+.chckt-font28{ font-size: 28px; }
+.chckt-font32{ font-size: 32px; }
+.chckt-font33{ font-size: 33px; }
+.chckt-font35{ font-size: 35px; }
+
+.chckt-noBackground{ background: none; }
+
+/*** Styles ChekOut ***/
+
+#chckt-successContent {
+    margin-top: 130px;
+    width: 40%;
+}
+#chckt-btnsRedirect{
+    width:70%;
+}
+
+#chckt-btnsRedirect .chckt-sizeBtnsRedirect{
+    width:200px;
+    height: 100px;
+    white-space: normal;
+}
+
+#chckt-btnsMoreOmnilife .chckt-sizeBtnsMoreOmni{
+    width:280px;
+    height: 130px;
+    white-space: normal;
+}
+
+@media (max-width: 991px) {
+    #chckt-successContent {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .chckt-font14{
+        font-size: 9px;
+        font-weight: bold;
+    }
+
+    #chckt-btnsRedirect{
+        width:100%;
+    }
+}
+
+/*** Styles Payment Failed ***/
+
+#paymentFailed-content {
+    margin-top: 130px;
+    width: 100%;
+}
+#paymentFailed-buttons{
+    border-right: 2px solid lightgray;
+}
+
+#paymentFailed-content #sidebar-checkout{
+    margin-left: 0% !important;
+}
+
+.rejecCharge-btnsOptions{
+    width: 290px;
+}
+
+@media (max-width: 1500px) {
+    .rejecCharge-btnsOptions{
+        width: 250px;
+    }
+    #paymentFailed-buttons .chckt-font14{
+        font-size: 12px;
+        font-weight: bold;
+    }
+}
+
+@media (max-width: 1280px) {
+    .rejecCharge-btnsOptions{
+        width: 220px;
+    }
+
+    #paymentFailed-buttons .chckt-font14{
+        font-size: 11px;
+        font-weight: bold;
+    }
+}
+
+@media (max-width: 991px) {
+    #paymentFailed-content {
+        margin-top: 20px;
+        width: 100%;
+        margin-left: -10px;
+    }
+    .chckt-font14{
+        font-size: 9px;
+        font-weight: bold;
+    }
+
+}
+
+@media (max-width: 770px) {
+    #paymentFailed-buttons {
+        border-right: none;
+    }
+}
+
+/*** Styles Your Orders ***/
+
+#yourOrders-content {
+    margin-top: 130px;
+    width: 80%;
+}
+.yourOrders-btnsOptions{
+    width: 255px;
+}
+
+@media (max-width: 991px) {
+    #yourOrders-content {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+}
+
+/*** stylesCheckout promotions***/
+
+.chckt-scroll_v_modal{
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 400px;
+}
+
+.chckt-con_products_combo{
+    width: 400px;
+}

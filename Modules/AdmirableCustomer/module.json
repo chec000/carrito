@@ -1,0 +1,16 @@
+{
+    "name": "AdmirableCustomer",
+    "alias": "admirablecustomer",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\AdmirableCustomer\\Providers\\AdmirableCustomerServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}
