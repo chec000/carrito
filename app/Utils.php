@@ -27,11 +27,8 @@ class Utils {
         $this->setDefaultCountry();
         $this->getState($zip_model);
         if($request->zip_selected != session()->get('zip')["zip"]){
-             $whare_house = UrlService::webService($this->getGlobalWharehouse($zip_model['state'],$zip_model['city']));
-       $whare_houseId = Wharehouse::select('wharehouse_id')->where(
-               'name', $whare_house['data']['clvAlmacen'])->first();            
-         if($whare_houseId != null){
-                        session()->put('wh_id',$whare_houseId->wharehouse_id);
+    
+                        session()->put('wh_id',4);
         }  else{
                         session()->put('wh_id', 0);
         }    
