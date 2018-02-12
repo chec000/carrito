@@ -1,0 +1,5 @@
+INSERT INTO `language`(`language_id`, `name`, `short_name`, `created_at`, `updated_at`, `deleted_at`, `modified_by`, `estatus`) VALUES (1, 'Español', 'ESP', '2017-11-22 00:00:00', '2017-11-22 00:00:00', NULL, 1, 1);
+INSERT INTO `language`(`language_id`, `name`, `short_name`, `created_at`, `updated_at`, `deleted_at`, `modified_by`, `estatus`) VALUES (2, 'English', 'ENG', '2017-11-22 00:00:00', '2017-11-22 00:00:00', NULL, 1, 1);
+INSERT INTO `language`(`language_id`, `name`, `short_name`, `created_at`, `updated_at`, `deleted_at`, `modified_by`, `estatus`) VALUES (3, 'Portuguêses', 'POR', '2017-11-22 00:00:00', '2018-02-07 14:52:36', '2018-02-07 14:52:36', 2, -1);
+INSERT INTO `language`(`language_id`, `name`, `short_name`, `created_at`, `updated_at`, `deleted_at`, `modified_by`, `estatus`) VALUES (4, 'Aleman', 'GER', '2017-12-30 02:52:34', '2017-12-30 02:52:52', NULL, 2, -1);
+INSERT INTO `language`(`language_id`, `name`, `short_name`, `created_at`, `updated_at`, `deleted_at`, `modified_by`, `estatus`) VALUES (5, 'Italiano', 'ATI', '2017-12-30 02:54:26', '2017-12-30 02:58:31', NULL, 2, -1);

@@ -1,0 +1,2 @@
+INSERT INTO `package`(`package_id`, `country_id`, `price`, `points`, `created_at`, `updated_at`, `deleted_at`, `modified_by`, `estatus`) VALUES (1, 1, 200, 20, '2018-01-24 12:51:28', NULL, NULL, 1, 1);
+INSERT INTO `package`(`package_id`, `country_id`, `price`, `points`, `created_at`, `updated_at`, `deleted_at`, `modified_by`, `estatus`) VALUES (2, 1, 200, 23, '2018-01-25 16:17:20', NULL, NULL, 1, 1);

@@ -1,0 +1,12 @@
+INSERT INTO `benefit`(`benefit_id`, `country_id`, `created_at`, `updated_at`, `deleted_at`, `modified_by`, `estatus`) VALUES (1, 1, '2018-01-20 10:03:20', '2018-01-20 10:03:20', NULL, 1, 1);
+INSERT INTO `benefit`(`benefit_id`, `country_id`, `created_at`, `updated_at`, `deleted_at`, `modified_by`, `estatus`) VALUES (2, 1, '2018-01-20 10:03:20', '2018-01-20 10:03:20', NULL, 1, 1);
+INSERT INTO `benefit`(`benefit_id`, `country_id`, `created_at`, `updated_at`, `deleted_at`, `modified_by`, `estatus`) VALUES (3, 1, '2018-01-20 10:03:20', '2018-01-20 10:03:20', NULL, 1, 1);
+INSERT INTO `benefit`(`benefit_id`, `country_id`, `created_at`, `updated_at`, `deleted_at`, `modified_by`, `estatus`) VALUES (4, 1, '2018-01-20 10:03:20', '2018-01-20 10:03:20', NULL, 1, 1);
+INSERT INTO `benefit`(`benefit_id`, `country_id`, `created_at`, `updated_at`, `deleted_at`, `modified_by`, `estatus`) VALUES (5, 1, '2018-01-20 10:03:20', '2018-01-20 10:03:20', NULL, 1, 1);
+INSERT INTO `benefit`(`benefit_id`, `country_id`, `created_at`, `updated_at`, `deleted_at`, `modified_by`, `estatus`) VALUES (6, 1, '2018-01-20 10:03:20', '2018-01-20 10:03:20', NULL, 1, 1);
+INSERT INTO `benefit`(`benefit_id`, `country_id`, `created_at`, `updated_at`, `deleted_at`, `modified_by`, `estatus`) VALUES (7, 1, '2018-01-20 10:03:20', '2018-01-20 10:03:20', NULL, 1, 1);
+INSERT INTO `benefit`(`benefit_id`, `country_id`, `created_at`, `updated_at`, `deleted_at`, `modified_by`, `estatus`) VALUES (8, 1, '2018-01-20 10:03:20', '2018-01-20 10:03:20', NULL, 1, 1);
+INSERT INTO `benefit`(`benefit_id`, `country_id`, `created_at`, `updated_at`, `deleted_at`, `modified_by`, `estatus`) VALUES (9, 1, '2018-01-20 10:03:20', '2018-01-20 10:03:20', NULL, 1, 1);
+INSERT INTO `benefit`(`benefit_id`, `country_id`, `created_at`, `updated_at`, `deleted_at`, `modified_by`, `estatus`) VALUES (10, 1, '2018-01-20 10:03:20', '2018-01-20 10:03:20', NULL, 1, 1);
+INSERT INTO `benefit`(`benefit_id`, `country_id`, `created_at`, `updated_at`, `deleted_at`, `modified_by`, `estatus`) VALUES (11, 1, '2018-01-20 10:03:20', '2018-01-20 10:03:20', NULL, 1, 1);
+INSERT INTO `benefit`(`benefit_id`, `country_id`, `created_at`, `updated_at`, `deleted_at`, `modified_by`, `estatus`) VALUES (12, 1, '2018-01-20 10:03:20', '2018-01-20 10:03:20', NULL, 1, 1);

@@ -1,0 +1,7 @@
+INSERT INTO `product_package`(`product_package_id`, `package_id`, `product_id`, `quantity`, `created_at`, `updated_at`, `deleted_at`, `modified_by`, `estatus`) VALUES (1, 1, 3, 1, '2018-01-24 12:53:09', NULL, NULL, 1, 1);
+INSERT INTO `product_package`(`product_package_id`, `package_id`, `product_id`, `quantity`, `created_at`, `updated_at`, `deleted_at`, `modified_by`, `estatus`) VALUES (2, 1, 7, 2, '2018-01-24 12:53:09', NULL, NULL, 1, 1);
+INSERT INTO `product_package`(`product_package_id`, `package_id`, `product_id`, `quantity`, `created_at`, `updated_at`, `deleted_at`, `modified_by`, `estatus`) VALUES (3, 1, 49, 3, '2018-01-24 12:53:09', NULL, NULL, 1, 1);
+INSERT INTO `product_package`(`product_package_id`, `package_id`, `product_id`, `quantity`, `created_at`, `updated_at`, `deleted_at`, `modified_by`, `estatus`) VALUES (4, 1, 100, 5, '2018-01-24 12:53:09', NULL, NULL, 1, 1);
+INSERT INTO `product_package`(`product_package_id`, `package_id`, `product_id`, `quantity`, `created_at`, `updated_at`, `deleted_at`, `modified_by`, `estatus`) VALUES (5, 2, 11, 2, '2018-01-25 16:21:53', NULL, NULL, 0, 1);
+INSERT INTO `product_package`(`product_package_id`, `package_id`, `product_id`, `quantity`, `created_at`, `updated_at`, `deleted_at`, `modified_by`, `estatus`) VALUES (6, 2, 10, 1, '2018-01-25 16:24:20', NULL, NULL, 0, 1);
+INSERT INTO `product_package`(`product_package_id`, `package_id`, `product_id`, `quantity`, `created_at`, `updated_at`, `deleted_at`, `modified_by`, `estatus`) VALUES (7, 2, 5, 3, '2018-01-25 16:24:35', NULL, NULL, 0, 1);
