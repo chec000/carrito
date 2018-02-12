@@ -1,0 +1,3 @@
+INSERT INTO `blacklist`(`id`, `eonumber`, `reason`, `country_id`, `created_at`, `updated_at`, `deleted_at`, `modified_by`, `estatus`) VALUES (1, '550001941DVZ', 'Bloqueo por faltade pago', 2, '2017-12-31 20:22:03', '2017-12-31 20:22:29', NULL, 2, 1);
+INSERT INTO `blacklist`(`id`, `eonumber`, `reason`, `country_id`, `created_at`, `updated_at`, `deleted_at`, `modified_by`, `estatus`) VALUES (3, '000515VCJ', NULL, NULL, '2017-12-31 20:29:18', '2017-12-31 20:29:18', NULL, NULL, 0);
+INSERT INTO `blacklist`(`id`, `eonumber`, `reason`, `country_id`, `created_at`, `updated_at`, `deleted_at`, `modified_by`, `estatus`) VALUES (5, '550001941DVZ', 'redf', 2, '2017-12-31 20:35:37', '2017-12-31 20:35:47', '2017-12-31 20:35:47', 2, -1);

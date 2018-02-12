@@ -1,0 +1,4 @@
+INSERT INTO `security_question`(`security_question_id`, `country_id`, `created_at`, `updated_at`, `deleted_at`, `modified_by`, `estatus`) VALUES (1, 1, '2018-01-17 21:22:28', '2018-01-17 21:22:28', NULL, 2, 1);
+INSERT INTO `security_question`(`security_question_id`, `country_id`, `created_at`, `updated_at`, `deleted_at`, `modified_by`, `estatus`) VALUES (2, 1, '2018-01-17 21:22:28', '2018-01-17 21:22:28', NULL, 1, 1);
+INSERT INTO `security_question`(`security_question_id`, `country_id`, `created_at`, `updated_at`, `deleted_at`, `modified_by`, `estatus`) VALUES (3, 1, '2018-01-17 21:22:28', '2018-01-17 21:22:28', NULL, 1, 1);
+INSERT INTO `security_question`(`security_question_id`, `country_id`, `created_at`, `updated_at`, `deleted_at`, `modified_by`, `estatus`) VALUES (4, 1, '2018-01-17 21:22:28', '2018-01-17 21:22:28', NULL, 1, 1);

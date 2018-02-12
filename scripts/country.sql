@@ -1,0 +1,3 @@
+INSERT INTO `country`(`country_id`, `name`, `short_name`, `created_at`, `updated_at`, `deleted_at`, `modified_by`, `estatus`) VALUES (1, 'Estados Unidos', 'USA', '2017-11-22 00:00:00', '2018-01-12 16:37:38', '2018-01-12 16:37:38', 2, 1);
+INSERT INTO `country`(`country_id`, `name`, `short_name`, `created_at`, `updated_at`, `deleted_at`, `modified_by`, `estatus`) VALUES (2, 'México', 'MEX', '2017-11-22 00:00:00', '2018-01-05 22:57:46', NULL, 2, 1);
+INSERT INTO `country`(`country_id`, `name`, `short_name`, `created_at`, `updated_at`, `deleted_at`, `modified_by`, `estatus`) VALUES (3, 'Portugal changed', 'POR', '2018-01-05 22:58:30', '2018-02-07 14:51:14', '2018-02-07 14:51:14', 2, -1);
