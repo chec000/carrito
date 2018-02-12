@@ -6,8 +6,8 @@ Route::group(['middleware' => 'web', 'prefix' => 'support', 'namespace' => 'Modu
     Route::get('/login', 'LoginController@index');
     Route::post('/logout', 'LoginController@logout')->name('logout');
     Route::post('/login', 'LoginController@login')->name('login');
-
-    Route::group(['middleware' => 'auth'], function() {
+//
+//    Route::group(['middleware' => 'auth'], function() {
 
         Route::resource('product-category', 'ProdCategoryController');
 
@@ -117,7 +117,7 @@ Route::group(['middleware' => 'web', 'prefix' => 'support', 'namespace' => 'Modu
 
 
 
-    });
+//    });
 
 
  

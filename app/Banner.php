@@ -30,7 +30,23 @@ class Banner extends Model
 
     ];
 
+public function up()
+{
+  // Renombrar la columna name a first_name
+  Schema::table('Banner', function(Blueprint $table)
+  {
+    $table->renameColumn('name','first_name');
+  });
+}
 
+public function down()
+{
+  // Volver a renombrar la columna con su antiguo nombre
+  Schema::table('Banner', function(Blueprint $table)
+  {
+    $table->renameColumn('first_name','name');
+  });
+}
     public function getBannerInfo(){
         //return session()->get('country_id');
         $lang = self::getLang();

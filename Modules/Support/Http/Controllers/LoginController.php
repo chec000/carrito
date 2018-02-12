@@ -48,22 +48,34 @@ class LoginController extends Controller
      */
     public function login(Request $request)
     {
-
-        $this->validateLogin($request);
+     // $usuarios= bcrypt($request->password);
+       
+    //  return $usuarios;
+      $this->validateLogin($request);
+  
+            $this->fireLockoutEvent($request);
 
         if ($this->hasTooManyLoginAttempts($request)) {
-
-            $this->fireLockoutEvent($request);
+     
 
             return $this->sendLockoutResponse($request);
         }
+   $credentials = [
+          'email' => $request->email,
+         'password' => $request->password,
+        ];
 
+//        if(Auth::attempt($credentials)) {
+//         //   return redirect()->route('dashboard');       
+//       return "existe el usuario";
+//            }else{
+//            return "no existe el usuario";
+//        }
 
         if (Auth::attempt(['email' => $request->email, 'password' => $request->password, 'role_id' => 1])) {
-
             return $this->sendLoginResponse($request);
-
         }
+      
 
         $this->incrementLoginAttempts($request);
 
@@ -117,11 +129,12 @@ class LoginController extends Controller
      */
     protected function sendLoginResponse(Request $request)
     {
+          
         $request->session()->regenerate();
 
 
         $this->clearLoginAttempts($request);
-
+ 
         return $this->authenticated($request, $this->guard()->user())
             ?: redirect()->intended($this->redirectPath());
     }
