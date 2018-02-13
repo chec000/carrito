@@ -48,7 +48,7 @@ public function down()
   });
 }
     public function getBannerInfo(){
-        //return session()->get('country_id');
+     
         $lang = self::getLang();
         try {
             $state_id = session()->get('state_id');
@@ -57,15 +57,16 @@ public function down()
             'bl.language_id')
             ->join('banner_language as bl', 'banner.banner_id', '=', 'bl.banner_id')
             ->where([
-              ['bl.language_id', '=', session()->get('lang_id')->language_id],
+              ['bl.language_id', '=', 1],
               ['banner.estatus', '=', 1],
-              ['banner.country_id', '=', session()->get('country_id')->country_id],
+              ['banner.country_id', '=', 1],
             ])
             ->get();
       } catch (Exception $ex) {
           return null;
       }
         return $banner;
+
     }
 
     function getLang(){

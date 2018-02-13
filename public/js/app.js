@@ -30635,7 +30635,7 @@ $(document).ready(function () {
         let url = window.location.href;
  //$("#start_view").modal("show");
  if (APP_URL+"/"===url) {
-        checkSesionVariables();
+       // checkSesionVariables();
   }
   $(".loader-general").fadeOut(4000);
 });

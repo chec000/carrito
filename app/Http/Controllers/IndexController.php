@@ -85,9 +85,10 @@ class IndexController extends Controller {
     }
 
     public function indexHome(){
-                 $this->language();  
             $uls= new Utils();
             $uls->setDefaultCountry();
+            $uls->setSessionVariables();
+        $this->language();  
         $getBanner = new Banner();
         $banner = $getBanner->getBannerInfo();
         return view('home')->with('banner', $banner);

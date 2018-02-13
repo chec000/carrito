@@ -15,9 +15,9 @@ class CheckSession
      */
     public function handle($request, Closure $next)
     {
-        if (!$request->session()->exists('zip')) {
-            return redirect('/');
-        }
+//        if (!$request->session()->exists('zip')) {
+            //return redirect('/');
+//        }
         return $next($request);
     }
 }

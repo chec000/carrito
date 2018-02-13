@@ -22,21 +22,16 @@ use App\Banner;
  */
 class Utils {
 
-    public function setSessionVariables($request) {
-        $zip_model = Zip_code::where('zip', '=', $request->zip_selected)->first();
-        $this->setDefaultCountry();
+    public function setSessionVariables() {
+        $zip_model = Zip_code::where('zip', '=', "00303")->first();
+        $this->setDefaultCountry();        
         $this->getState($zip_model);
-        if($request->zip_selected != session()->get('zip')["zip"]){
-    
-                        session()->put('wh_id',4);
-        }  else{
-                        session()->put('wh_id', 0);
-        }    
-        session()->put('zip', $zip_model);
-         
+        session()->put("country_id",2);
+        session()->put('wh_id',4);   
+        session()->put('lang_id', 2);
+        return session()->all();           
     }
-     return session()->all();
-    }
+
     public  function getState($zip_model){
         $state = State::where('state_key', '=', $zip_model['state'])->select('state_id')->first();     
         session::put('state_id', $state['state_id']);

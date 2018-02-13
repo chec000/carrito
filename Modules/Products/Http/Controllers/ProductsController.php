@@ -355,10 +355,11 @@ public function getProductsByBenefitId($id) {
             "language_id" =>session()->get('lang_id')->language_id,
             "whare_house_id" => session()->get('wh_id')
         );
+  
         $benefit= new BenefitLanguage();
         $urlSelected=$benefit->getBenefitName($id,session()->get('lang_id')->language_id);
         $products = $productsWharehouse->getProductsByParamas($params);
-           $url="products/productsBenefit".'/'.$id;
+        $url="products/productsBenefit".'/'.$id;
            session()->put('url-breadcrumb',$url);
            session()->put('url-name',$urlSelected);
            return compact('products','urlSelected','url');
